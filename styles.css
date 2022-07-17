@@ -1,0 +1,178 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: azure;
+    background-color: black;
+    text-decoration: none;
+}
+
+.containernav {
+    display: flex;
+    flex-direction: column;
+}
+
+#contatonav {
+    text-align: end;
+    padding-right: 198px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#linksnav {
+    text-align: end;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#TituloDesenvolvedora {
+    margin: 0px;
+    font-size: 75px;
+}
+
+.TituloPrincipal {
+    margin-left: 140px;
+}
+
+.TituloPrincipal, #nombre_titulo_principal {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+}
+
+hr, #lineadecoracion {
+    border: 0px ;
+    border-top: 2px solid orangered;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.Opciones_principales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#Opciones_subtitulo_principales {
+    text-align: center;
+}
+
+.subtitulo_sobre {
+    margin-top: 170px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.texto_sobre {
+    margin-left: 100px;
+}
+
+.subtitulo_estudos {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: end;
+}
+
+.texto_estudos {
+   list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    line-height: 100px;
+    margin: 0px;
+}
+
+.subtitulo_projetos {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+}
+
+.Opciones_secundarias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+
+}
+
+#Opciones_subtitulo_secundarias {
+    text-align: center;
+    
+}
+
+.subtitulo_contato {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.link_contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.Formulario1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.Formulario2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.button {
+    background: transparent;
+    border-radius: 6px;
+    color: orangered;
+    cursor: pointer;
+    border: 2px solid orangered;
+}
+
+.button:hover {
+    background-color: orangered;
+    color: white;
+}
+
+input {
+    border-radius: 6px;
+}
+
+.warnings {
+    text-align: center;
+    margin: auto;
+    color:rgb(216, 196, 16);
+    font-size: 15px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer:hover {
+    color:orangered;
+    opacity: 8;
+}
+        
